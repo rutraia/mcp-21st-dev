@@ -1,0 +1,21 @@
+{
+  "api": {
+    "baseUrl": "https://21st.dev/api",
+    "key": "22b835245277e5da8ccaaf969140850fc9ca5d600b98ee847c4ec82ade868af5"
+  },
+  "components": {
+    "search": {
+      "endpoint": "/search",
+      "method": "POST"
+    },
+    "generate": {
+      "endpoint": "/generate",
+      "method": "POST"
+    }
+  },
+  "settings": {
+    "maxResults": 10,
+    "timeout": 30000,
+    "retryAttempts": 3
+  }
+}
